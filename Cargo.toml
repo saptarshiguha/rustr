@@ -1,0 +1,14 @@
+[package]
+name = "rlib"
+version = "0.1.0"
+authors = ["sguha"]
+build = "build.rs"
+
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+name = "foisty"
+path = "src/lib.rs"
+crate-type = ["dylib"] #
